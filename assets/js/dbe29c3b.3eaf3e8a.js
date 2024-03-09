@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[43],{992:e=>{e.exports=JSON.parse('{"title":"Knowledge base","slug":"/category/knowledge-base","permalink":"/docs/category/knowledge-base","navigation":{"next":{"title":"Foobar-365","permalink":"/docs/foobar-365"}}}')}}]);
