@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[5092],{4463:e=>{e.exports=JSON.parse('{"title":"Legal","slug":"/category/legal","permalink":"/iuiu/docs/category/legal","navigation":{"previous":{"title":"Buganizer","permalink":"/iuiu/docs/buganizer"},"next":{"title":"Terms of service","permalink":"/iuiu/docs/terms-of-service"}}}')}}]);
