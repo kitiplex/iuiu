@@ -40,7 +40,7 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       items: [
         'legal/terms-of-service',
-        'legal/security-policy-default'
+        'legal/security-policy-default',
       ]
     }
 

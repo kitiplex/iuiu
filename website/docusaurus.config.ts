@@ -44,12 +44,14 @@ const config: Config = {
           remarkPlugins: [[npm2yarn, {sync: true}],remarkMath],
           rehypePlugins: [rehypeKatex,],
         },
+        
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: 'Recent Updates',
+          blogSidebarTitle: 'Recents',
           remarkPlugins: [[npm2yarn, {sync: true}], remarkMath],
           rehypePlugins: [rehypeKatex],
         },
+
         theme: {
           customCss: './src/css/custom.css',
         },
