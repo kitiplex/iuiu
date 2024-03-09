@@ -10,7 +10,7 @@ const config: Config = {
   tagline: 'Knowledge Base for awesome people by awesome people.',
   favicon: 'icons/favicon.ico',
   url: 'https://kitiplex.github.io',
-  baseUrl: '/',
+  baseUrl: '/iuiu/',
   titleDelimiter: '·',
   organizationName: 'kitiplex', // Usually your GitHub org/user name.
   projectName: 'iuiu', // Usually your repo name.
