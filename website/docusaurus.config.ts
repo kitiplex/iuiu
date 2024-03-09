@@ -78,7 +78,7 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/iuiu-social.png',
     navbar: {
       title: 'IUIU',
       logo: {
@@ -165,7 +165,13 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Kitimi Platforms`,
+      logo: {
+        alt: 'Kitiplex Logo',
+        src: 'img/kitimi-svg-banner-2.svg',
+        href: '/',
+        width: 200,
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} Kitimi Platforms.`,
     },
     prism: {
       theme: prismThemes.github,
