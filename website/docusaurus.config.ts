@@ -34,9 +34,9 @@ const config: Config = {
         docs: {
           path: 'docs',
           showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           breadcrumbs: true,
           sidebarPath: './sidebars.ts',
-          showLastUpdateTime: false,
           disableVersioning: false,
           editLocalizedFiles: false,
           editCurrentVersion: false,
@@ -46,10 +46,17 @@ const config: Config = {
         },
         
         blog: {
+          path: "blog",
+          blogTitle: 'Blog title',
           showReadingTime: true,
           blogSidebarTitle: 'Recents',
+          blogDescription: 'Blog',
           remarkPlugins: [[npm2yarn, {sync: true}], remarkMath],
           rehypePlugins: [rehypeKatex],
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Kitimi Platforms.`,
+          },
         },
 
         theme: {
@@ -60,31 +67,33 @@ const config: Config = {
   ],
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
       type: 'text/css',
       integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
+      "sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV",crossorigin: "anonymous"
     },
   ],
 
   themeConfig: {
+    
     docs: {
       sidebar: {
         hideable: true,
-        autoCollapseCategories: false,
+        autoCollapseCategories: true,
       },
     },
+
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: 'dark',
       disableSwitch: false,
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
     },
     image: 'img/iuiu-social.png',
     navbar: {
       title: 'IUIU',
+      hideOnScroll: true,
       logo: {
-        alt: 'My Site Logo',
+        alt: '',
         src: 'img/logo.png',
         target: '_self',
         width: 32,
@@ -178,6 +187,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages:["java","powershell"]
     },
   } satisfies Preset.ThemeConfig,
 };

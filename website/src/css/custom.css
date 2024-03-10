@@ -29,7 +29,15 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-
+.banner {
+  padding: 4rem;
+}
+/** In mobile view, reduce the padding */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
 
 .header-github-link::before {
   content: '';

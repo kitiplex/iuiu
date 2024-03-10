@@ -41,6 +41,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'legal/terms-of-service',
         'legal/security-policy-default',
+        'contributing'
       ]
     }
 
