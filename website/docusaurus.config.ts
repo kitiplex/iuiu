@@ -14,7 +14,7 @@ const config: Config = {
   titleDelimiter: '·',
   organizationName: 'kitiplex', // Usually your GitHub org/user name.
   projectName: 'iuiu', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  // deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   trailingSlash: false,
@@ -33,7 +33,7 @@ const config: Config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
-          sidebarPath: 'sidebars.ts',
+          sidebarPath: './sidebars.ts',
           disableVersioning: false,
           editLocalizedFiles: false,
           editCurrentVersion: false,
