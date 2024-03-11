@@ -26,22 +26,26 @@ const sidebars: SidebarsConfig = {
       },
       collapsed: false,
       items: [
+
+        'buganizer',
         'configuration',
-        'buganizer'
       ]
     },
     {
       type: 'category',
-      label: 'Legal',
+      label: 'Policies',
       link: {
         type: 'generated-index',
+        description: "Kitiplex has adopted these policies that we expect project participants to adhere to.",
       },
       collapsed: true,
       collapsible: true,
       items: [
-        'legal/terms-of-service',
-        'legal/security-policy-default',
-        'contributing'
+        'policies/code-of-conduct',
+        'policies/contributing',
+        'policies/terms-of-service',
+        'policies/security-policy-default',
+
       ]
     }
 

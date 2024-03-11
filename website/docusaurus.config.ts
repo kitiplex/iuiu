@@ -19,9 +19,6 @@ const config: Config = {
   onBrokenMarkdownLinks: 'throw',
   trailingSlash: false,
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -36,7 +33,7 @@ const config: Config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
-          sidebarPath: './sidebars.ts',
+          sidebarPath: 'sidebars.ts',
           disableVersioning: false,
           editLocalizedFiles: false,
           editCurrentVersion: false,
@@ -47,15 +44,15 @@ const config: Config = {
         
         blog: {
           path: "blog",
-          blogTitle: 'Blog title',
+          blogTitle: 'News',
           showReadingTime: true,
           blogSidebarTitle: 'Recents',
-          blogDescription: 'Blog',
+          blogDescription: 'News and updates',
           remarkPlugins: [[npm2yarn, {sync: true}], remarkMath],
           rehypePlugins: [rehypeKatex],
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Kitimi Platforms.`,
+            copyright: `Copyright © ${new Date().getFullYear()} IUIU`,
           },
         },
 
@@ -118,12 +115,7 @@ const config: Config = {
           position: 'right',
           label: 'KB'
         },
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
+
         {to: '/blog', label: 'News', position: 'right'},
         {
           href: 'https://github.com/kitiplex/iuiu',
@@ -140,7 +132,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting started',
               to: '/docs',
             },
           ],
@@ -187,7 +179,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages:["java","powershell"]
+      additionalLanguages:["java","powershell","bash","python","json"]
     },
   } satisfies Preset.ThemeConfig,
 };
