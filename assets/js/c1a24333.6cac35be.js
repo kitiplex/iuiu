@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[6679],{8352:e=>{e.exports=JSON.parse('{"label":"updates","permalink":"/iuiu/blog/tags/updates","allTagsPath":"/iuiu/blog/tags","count":1,"unlisted":false}')}}]);

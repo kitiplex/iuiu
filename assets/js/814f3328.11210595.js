@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Updates","items":[{"title":"Components","permalink":"/iuiu/blog/2024/03/10/components","unlisted":true},{"title":"Introducing IUIU","permalink":"/iuiu/blog/introducing-iuiu","unlisted":false}]}')}}]);
