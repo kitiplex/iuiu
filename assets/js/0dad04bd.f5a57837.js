@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2450],{5970:e=>{e.exports=JSON.parse('{"title":"Getting started","slug":"/category/getting-started","permalink":"/iuiu/docs/category/getting-started","navigation":{"previous":{"title":"Introduction","permalink":"/iuiu/docs/"},"next":{"title":"Buganizer","permalink":"/iuiu/docs/buganizer"}}}')}}]);
