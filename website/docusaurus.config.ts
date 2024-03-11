@@ -44,10 +44,10 @@ const config: Config = {
         
         blog: {
           path: "blog",
-          blogTitle: 'News',
+          blogTitle: 'Updates',
           showReadingTime: true,
-          blogSidebarTitle: 'Recents',
-          blogDescription: 'News and updates',
+          blogSidebarTitle: 'Updates',
+          blogDescription: 'Updates',
           remarkPlugins: [[npm2yarn, {sync: true}], remarkMath],
           rehypePlugins: [rehypeKatex],
           feedOptions: {
