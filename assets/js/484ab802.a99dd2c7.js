@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[7922],{3453:e=>{e.exports=JSON.parse('{"title":"Partners","description":"Active partners","slug":"/category/partners","permalink":"/iuiu/docs/category/partners","navigation":{"next":{"title":"ABC Co.","permalink":"/iuiu/docs/abc-co"}}}')}}]);
