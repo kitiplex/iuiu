@@ -33,7 +33,7 @@ const config: Config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
-          sidebarPath: './sidebars.ts',
+          sidebarPath: require.resolve('./sidebars.ts'),
           disableVersioning: false,
           editLocalizedFiles: false,
           editCurrentVersion: false,
@@ -57,7 +57,7 @@ const config: Config = {
         },
 
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       } satisfies Preset.Options,
     ],
@@ -107,13 +107,19 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'partnerSidebar',
           position: 'right',
-          label: 'Partners'
+          label: 'PIS'
         },
         {
           type: 'docSidebar',
           sidebarId: 'kbaseSidebar',
           position: 'right',
           label: 'KB'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'communitySidebar',
+          position: 'right',
+          label: 'Community'
         },
 
         {to: '/blog', label: 'News', position: 'right'},
