@@ -14,7 +14,7 @@ const config: Config = {
   titleDelimiter: '·',
   organizationName: 'kitiplex', // Usually your GitHub org/user name.
   projectName: 'iuiu', // Usually your repo name.
-  // deploymentBranch: 'gh-pages',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   trailingSlash: false,
@@ -100,7 +100,7 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'guideSidebar',
-          position: 'right',
+          position: 'left',
           label: 'Docs'
         },
         {
@@ -112,7 +112,7 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'kbaseSidebar',
-          position: 'right',
+          position: 'left',
           label: 'KB'
         },
         {

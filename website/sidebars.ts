@@ -46,7 +46,7 @@ const sidebars: SidebarsConfig = {
       items: [
 
         "kbase/kangaroo/joey",
-        "kbase/kangaroo/buganizer"
+        "kbase/kangaroo/buganizer",
   
       ],
 
